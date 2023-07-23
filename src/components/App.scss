@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(0, 0, 33);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li a {        
+  color: white;
+}
+
+ul li a:hover {
+  color: rgb(153, 153, 226);
+  font-size: 1.2rem;
+}
+
+/* .mobile {
+  transition: width 0.3s ease;
+} */
+.mobile {
+  background-color: #12123e8a;
+}
+.hamburger {
+  display: none;
+}
+
+main hr {
+  border: 0;
+  background: #9c97f1;
+  height: 1.2px;
+  margin: 60px 84px;
+}
+
+.hamburger {
+  display: none;
+  font-size: 2rem;
+}
+
+.left {
+  font-size: 1.5rem;
+  margin-left: 30px;
+}
+
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 90px 0;
+}
+
+.firstSection > div {
+  width: 30%;
+}
+
+.leftSection {
+  font-size: 1.7rem;
+}
+
+.rightSection img {
+  width: 80%;
+}
+
+.purple {
+  color: rgb(170, 107, 228);
+}
+
+#element {
+  color: rgb(170, 107, 228);
+}
+
+.secondsection {
+  /* max-width: 80vw;
+  margin: auto; */
+  padding: 0 4rem;
+}
+.download {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.icons a {
+  margin: 0 10px;
+  font-size: 1.5rem;
+}
+h4 {
+  font-size: 10px;
+  text-align: center;
+}
+.social-links {
+  padding: 10px;
+  margin-right: 50px;
+}
+.about-me {
+  padding: 10px;
+}
+.about-section {
+  display: flex;
+}
+
+@media screen and (max-width: 650px) {
+  .about-section {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .hamburger {
+    display: block;
+    font-size: 2rem;
+  }
+  .mobile ul li {
+    padding: 10px;
+  }
+  .menu-list {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 651px) {
+  .hamburger {
+    display: none;
+  }
+  .mobile {
+    display: none;
+  }
+}
+
+.d-none {
+  display: none;
+}
