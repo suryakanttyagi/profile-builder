@@ -4,9 +4,9 @@ import Nav from './nav/nav';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app d-flex">
       <Nav/>
-      <Main/>
+      <div></div>
     </div>
   );
 }

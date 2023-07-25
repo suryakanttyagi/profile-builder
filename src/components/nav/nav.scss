@@ -1,0 +1,38 @@
+.sideNav {
+  background-color: #00000082;
+  height: 100%;
+  & > aside {
+    height: 100%;
+    width: 300px;
+  }
+  .card {
+    width: 100%;
+    & .card-head {
+      color: #FFF;
+      padding: 5px;
+      & .profile-image {
+        border-radius: 50%;
+        height: 150px;
+        margin-bottom: 10px;
+        width: 150px;
+      }
+      & .h-line {
+        padding: 0 20px;
+        margin-top: 10px;
+      }
+      & .h-line::after {
+        content: '';
+        display: block;
+        width: 100%;
+        /* display: flex; */
+        justify-content: center;
+        border: 1px solid yellow;
+        text-align: center;
+        align-self: center;
+      }
+    }
+    .card-body {
+
+    }
+  }
+}

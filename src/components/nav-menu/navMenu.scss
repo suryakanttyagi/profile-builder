@@ -1,0 +1,33 @@
+.mobile {
+    background-color: #12123e8a;
+}
+
+@media screen and (min-width: 651px) {
+    .hamburger {
+        display: none;
+    }
+    .mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .about-section {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .hamburger {
+      display: block;
+      font-size: 2rem;
+    }
+    .mobile ul li {
+      padding: 10px;
+    }
+    .menu-list {
+      display: none;
+    }
+  }
+  
+  .d-none {
+    display: none;
+  }

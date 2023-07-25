@@ -1,6 +1,7 @@
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { menuList } from '../../constants/navConstants';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import './navMenu.scss';
 
 function NavMenu() {
     return (
