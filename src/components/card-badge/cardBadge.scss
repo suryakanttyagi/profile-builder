@@ -1,0 +1,16 @@
+.cardBadge {
+    background-color: #1f1f1f;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: center;
+    width: 100px;
+
+    & .number {
+        color: #dac00c;
+    }
+
+    & .topic {
+        color: #ffffff;
+    }
+}

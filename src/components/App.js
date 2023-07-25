@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="app d-flex">
       <Nav/>
-      <div></div>
+      <Main/>
     </div>
   );
 }

@@ -1,9 +1,20 @@
 import './main.scss';
+import CardBadge from '../card-badge/cardBadge';
 
 function Main() {
   return (
-    <main>
-      <section className="firstSection">
+    <main className='main'>
+      <div className='card'>
+        <div className='card-head'>
+          <div className='profile-background'>
+            <div className='cover'></div>
+          </div>
+          <div className='detail-card d-flex jusfity-between'>
+            <CardBadge/>
+          </div>
+        </div>
+      </div>
+      {/* <section className="firstSection">
         <div className="leftSection">
           Hi, AM <span className="purple">Suryakant</span>
           <span id="element"></span>
@@ -11,9 +22,9 @@ function Main() {
         <div className="rightSection">
           <img src="dev.png.png" alt="" />
         </div>
-      </section>
-      <hr />
-      <section className="secondsection">
+      </section> */}
+      {/* <hr /> */}
+      {/* <section className="secondsection">
         <div className="about-section">
           <div className="social-links">
             <h4>connect with me</h4>
@@ -69,7 +80,7 @@ function Main() {
             <i className="fa-brands fa-whatsapp"></i>
           </a>
         </div>
-      </section>
+      </section> */}
     </main>
   );
 }

@@ -13,7 +13,7 @@ function Nav() {
             </div>
             <div className="h-line"></div>
           </div>
-          <div class="card-body">
+          <div className="card-body">
             
           </div>
         </div>
