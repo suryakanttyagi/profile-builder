@@ -1,17 +1,29 @@
 .main {
   flex: 1;
-  margin-left: 10px;
+  margin-left: 20px;
 
   & .profile-background {
     background: url('../../../public/background-image.avif') no-repeat center center;
     height: 250px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     position: relative;
     & .cover {
       background-color: #0000004a;
       height: 100%;
       position: absolute;
       width: 100%;
+    }
+  }
+
+  & .service-card {
+    margin-top: 20px;
+
+    h2 {
+      color: #ffffff;
+    }
+
+    & .service-list {
+      margin-top: 20px;
     }
   }
 }
