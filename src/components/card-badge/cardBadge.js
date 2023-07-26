@@ -1,10 +1,13 @@
 import './cardBadge.scss';
 
-function CardBadge() {
+function CardBadge({title, subTitle, subTitleImage}) {
     return (
         <div className="cardBadge text-center">
-            <h1 className='number'>5+</h1>
-            <div className='topic'>Experience</div>
+            <h1 className='number'>{title}</h1>
+            {
+                subTitleImage && <img src={subTitleImage}/>
+            }
+            <div className='topic'>{subTitle}</div>
         </div>
     )
 }
