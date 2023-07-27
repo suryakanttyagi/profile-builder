@@ -1,12 +1,12 @@
-import "./cardService.scss";
+import "./experience.scss";
 
-function CardService({orgName, subName, duration}) {
+function Experience({ orgName, subName, duration }) {
   return (
-    <div className="cardService">
+    <div className="experience">
       <div className="card-head">
         <div className="card-title">
-            <h3>{orgName}</h3> <span>{subName}</span>
-            <div className="duration">{duration}</div>
+          <h3>{orgName}</h3> <span>{subName}</span>
+          <div className="duration">{duration}</div>
         </div>
       </div>
       <div className="card-body">
@@ -23,4 +23,4 @@ function CardService({orgName, subName, duration}) {
   );
 }
 
-export default CardService;
+export default Experience;

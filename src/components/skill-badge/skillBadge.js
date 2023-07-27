@@ -1,8 +1,8 @@
-import './cardBadge.scss';
+import './skillBadge.scss';
 
-function CardBadge({title, subTitle, subTitleImage}) {
+function SkillBadge({title, subTitle, subTitleImage}) {
     return (
-        <div className="cardBadge text-center">
+        <div className="skillBadge text-center">
             <h1 className='number'>{title}</h1>
             {
                 subTitleImage && <img src={subTitleImage}/>
@@ -12,4 +12,4 @@ function CardBadge({title, subTitle, subTitleImage}) {
     )
 }
 
-export default CardBadge;
+export default SkillBadge;
