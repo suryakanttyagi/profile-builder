@@ -6,10 +6,15 @@
     width: 300px;
   }
   .card {
+    padding: 20px 0px;
     width: 100%;
     & .card-head {
       color: #FFF;
       padding: 5px;
+      & .head-content a {
+        text-decoration: none;
+        color: inherit;
+      }
       & .profile-image {
         border-radius: 50%;
         height: 150px;
@@ -24,7 +29,6 @@
         content: '';
         display: block;
         width: 100%;
-        /* display: flex; */
         justify-content: center;
         border: 1px solid yellow;
         text-align: center;
