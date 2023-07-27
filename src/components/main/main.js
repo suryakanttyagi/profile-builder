@@ -10,7 +10,9 @@ function Main() {
           <div className='profile-background'>
             <div className='cover'></div>
           </div>
-          <div className='skill-list d-flex justify-between'>
+          <div className='skill-main'>
+            <h2>My Skills</h2>
+            <div className='skill-list d-flex justify-between flex-wrap'>
             <SkillBadge title="5+" subTitleImage='./react-400.png'/>
             <SkillBadge title="5+" subTitleImage='./javascript-400.png'/>
             <SkillBadge title="2+" subTitleImage='./typescript-400.png'/>
@@ -19,9 +21,10 @@ function Main() {
             <SkillBadge title="5+" subTitleImage='./css3-400.png'/>
             <SkillBadge title="5+" subTitleImage='./git-400.png'/>
           </div>
+          </div>
           <div className='experience-main'>
             <h2>My Experience</h2>
-            <div className='experience-list d-flex justify-between'>
+            <div className='experience-list d-flex justify-between flex-wrap'>
               <Experience orgName="Knowledge Ops Pvt Ltd" duration='(JUL 2018 - NOV 2020)'/>
               <Experience orgName="GlobalLogic" subName="(A Hitachi Group Company)" duration='(DEC 2020 - JUL 2022)'/>
               <Experience orgName="Infogain" duration='(JUL 2022 - ON)'/>

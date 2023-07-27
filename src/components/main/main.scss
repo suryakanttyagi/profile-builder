@@ -1,12 +1,14 @@
 .main {
   flex: 1;
-  margin-left: 20px;
+  height: calc(100vh - 20px);
+  overflow: auto;
 
   & .profile-background {
     background: url('../../../public/background-image.avif') no-repeat center center;
     height: 250px;
     margin-bottom: 20px;
     position: relative;
+    
     & .cover {
       background-color: #0000004a;
       height: 100%;
@@ -15,7 +17,23 @@
     }
   }
 
-  & .experience-main {
+  & .skill-main {
+    margin-top: 20px;
+
+    h2 {
+      color: #ffffff;
+    }
+
+    & .skill-list {
+      margin-top: 10px;
+
+      & .skillBadge {
+        margin: 0 5px 5px 0;
+      }
+    }
+  }
+
+  & .experience-main, .skill-main {
     margin-top: 20px;
 
     h2 {
@@ -23,7 +41,11 @@
     }
 
     & .experience-list {
-      margin-top: 20px;
+      margin-top: 10px;
+
+      & .experience {
+        margin: 0 10px 10px 0;
+      }
     }
   }
 }

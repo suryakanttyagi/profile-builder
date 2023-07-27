@@ -1,7 +1,8 @@
 .sideNav {
   background-color: #00000082;
   height: calc(100vh - 20px);
-  & > aside {
+  margin-right: 20px;
+  aside {
     height: 100%;
     width: 300px;
   }
@@ -35,5 +36,11 @@
         align-self: center;
       }
     }
+  }
+}
+
+@media only screen and (max-width: 1026px) {
+  .sideNav {
+      display: none;
   }
 }
