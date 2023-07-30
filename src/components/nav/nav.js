@@ -3,7 +3,6 @@ import { faMobile, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import ProgressBar from "../progress-bar/progressBar";
 import "./nav.scss";
 import { progressList } from "../../constants/navConstants";
-import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 
 function Nav() {
   return (
