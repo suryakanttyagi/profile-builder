@@ -9,11 +9,12 @@
   .card {
     display: flex;
     flex-direction: column;
-    padding: 20px 0px;
+    // padding: 20px 0px;
     width: 100%;
     & .card-head {
+      background-color: #8774741c;
       color: #FFF;
-      padding: 5px;
+      padding: 20px;
       & .head-content a {
         text-decoration: none;
         color: inherit;
@@ -33,7 +34,7 @@
         display: block;
         width: 100%;
         justify-content: center;
-        border: 1px solid yellow;
+        border: 1px none yellow;
         text-align: center;
         align-self: center;
       }
@@ -41,9 +42,9 @@
 
     & .card-body {
       flex: 1;
+      padding: 20px;
       overflow: auto;
       & .progress-list {
-        padding: 20px 10px 10px;
         & .progressBar {
           margin-bottom: 20px;
         }

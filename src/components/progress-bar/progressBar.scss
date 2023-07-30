@@ -7,15 +7,16 @@
 
     & .status {
         text-align: end;
+        color: #7e7979;
     }
     
     & .container {
-        border: 1px solid #7dae1b;
+        border: 1px solid #433712;
         border-radius: 5px;
         height: 6px;
         position: relative;
         & .progress {
-            background: #7dae1b;
+            background: #dbb41b;
             height: 100%;
             position: absolute;
             // width: 100%;
