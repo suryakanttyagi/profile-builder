@@ -1,0 +1,25 @@
+.progressBar {
+    color: #ffffff;
+
+    & .label {
+        float: left;
+    }
+
+    & .status {
+        text-align: end;
+    }
+    
+    & .container {
+        border: 1px solid #7dae1b;
+        border-radius: 5px;
+        height: 6px;
+        position: relative;
+        & .progress {
+            background: #7dae1b;
+            height: 100%;
+            position: absolute;
+            // width: 100%;
+            text-align: end;
+        }
+    }
+}

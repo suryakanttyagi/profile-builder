@@ -7,6 +7,8 @@
     width: 300px;
   }
   .card {
+    display: flex;
+    flex-direction: column;
     padding: 20px 0px;
     width: 100%;
     & .card-head {
@@ -34,6 +36,17 @@
         border: 1px solid yellow;
         text-align: center;
         align-self: center;
+      }
+    }
+
+    & .card-body {
+      flex: 1;
+      overflow: auto;
+      & .progress-list {
+        padding: 20px 10px 10px;
+        & .progressBar {
+          margin-bottom: 20px;
+        }
       }
     }
   }
