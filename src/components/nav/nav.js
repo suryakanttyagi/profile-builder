@@ -1,5 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMobile, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import {
+  faMobile,
+  faEnvelope,
+  faCheckCircle,
+} from "@fortawesome/free-solid-svg-icons";
 import ProgressBar from "../progress-bar/progressBar";
 import "./nav.scss";
 import { progressList } from "../../constants/navConstants";
@@ -28,13 +32,65 @@ function Nav() {
                 </a>
               </p>
             </div>
-            <div className="h-line"></div>
           </div>
           <div className="card-body">
             <div className="progress-list">
               {progressList.map((item, index) => {
                 return <ProgressBar key={`${index}_progress`} {...item} />;
               })}
+            </div>
+            <div className="hr-line d-flex justify-center"></div>
+            <div className="other-skills">
+              <ul>
+                <li>
+                  <span>
+                    <FontAwesomeIcon icon={faCheckCircle} />
+                  </span>{" "}
+                  Bootstrap
+                </li>
+                <li>
+                  <span>
+                    <FontAwesomeIcon icon={faCheckCircle} />
+                  </span>{" "}
+                  React
+                </li>
+                <li>
+                  <span>
+                    <FontAwesomeIcon icon={faCheckCircle} />
+                  </span>{" "}
+                  Redux
+                </li>
+                <li>
+                  <span>
+                    <FontAwesomeIcon icon={faCheckCircle} />
+                  </span>{" "}
+                  React-Router
+                </li>
+                <li>
+                  <span>
+                    <FontAwesomeIcon icon={faCheckCircle} />
+                  </span>{" "}
+                  GraphQL
+                </li>
+                <li>
+                  <span>
+                    <FontAwesomeIcon icon={faCheckCircle} />
+                  </span>{" "}
+                  REST API
+                </li>
+                <li>
+                  <span>
+                    <FontAwesomeIcon icon={faCheckCircle} />
+                  </span>{" "}
+                  Emotion JS
+                </li>
+                <li>
+                  <span>
+                    <FontAwesomeIcon icon={faCheckCircle} />
+                  </span>{" "}
+                  Styled Components
+                </li>
+              </ul>
             </div>
           </div>
           <div className="card-footer">

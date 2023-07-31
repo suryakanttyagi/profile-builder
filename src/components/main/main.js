@@ -1,6 +1,7 @@
 import "./main.scss";
 import SkillBadge from "../skill-badge/skillBadge";
 import Experience from "../experience/experience";
+import { skillList } from "../../constants/navConstants";
 
 function Main() {
   return (
@@ -13,13 +14,16 @@ function Main() {
           <div className="skill-main">
             <h2>My Skills</h2>
             <div className="skill-list d-flex justify-start flex-wrap">
-              <SkillBadge title="5+" subTitleImage="./react-400.png" />
-              <SkillBadge title="5+" subTitleImage="./javascript-400.png" />
-              <SkillBadge title="2+" subTitleImage="./typescript-400.png" />
-              <SkillBadge title="2+" subTitleImage="./nodejs-400.png" />
-              <SkillBadge title="5+" subTitleImage="./html5-400.png" />
-              <SkillBadge title="5+" subTitleImage="./css3-400.png" />
-              <SkillBadge title="5+" subTitleImage="./git-400.png" />
+              {skillList.map((item, index) => {
+                return (
+                  <SkillBadge
+                    key={`${index}_label`}
+                    title={item.title}
+                    subTitleImage={item.subTitleImage}
+                    label={item.label}
+                  />
+                );
+              })}
             </div>
           </div>
           <div className="experience-main">

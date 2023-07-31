@@ -6,37 +6,37 @@
     height: 100%;
     width: 300px;
   }
+
+  & .hr-line {
+    margin-top: 25px;
+    &::after {
+      background-color: #333030;
+      content: "";
+      display: block;
+      height: 1px;    
+      width: 100%;
+    }
+  }
+
   .card {
     display: flex;
     flex-direction: column;
-    // padding: 20px 0px;
     width: 100%;
     & .card-head {
       background-color: #8774741c;
       color: #FFF;
       padding: 20px;
+      
       & .head-content a {
         text-decoration: none;
         color: inherit;
       }
+
       & .profile-image {
         border-radius: 50%;
         height: 150px;
         margin-bottom: 10px;
         width: 150px;
-      }
-      & .h-line {
-        padding: 0 20px;
-        margin-top: 10px;
-      }
-      & .h-line::after {
-        content: '';
-        display: block;
-        width: 100%;
-        justify-content: center;
-        border: 1px none yellow;
-        text-align: center;
-        align-self: center;
       }
     }
 
@@ -47,6 +47,22 @@
       & .progress-list {
         & .progressBar {
           margin-bottom: 20px;
+        }
+      }
+
+      & .other-skills {
+        color: #7e7979;
+        margin-top: 10px;
+
+        & ul {
+          list-style: none;
+          & li {
+            margin-bottom: 5px;
+            span {
+              color: #dbb41b;
+              margin-right: 5px;
+            }
+          }
         }
       }
     }
