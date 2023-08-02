@@ -41,6 +41,56 @@ function Main() {
               <Experience orgName="Infogain" duration="(JUL 2022 - ON)" />
             </div>
           </div>
+          <div className="contact-main">
+            <h2>Contact information</h2>
+            <div className="contact-info">
+              <div className="card">
+                <div className="d-flex justify-between">
+                  <p>Country:</p>
+                  <span className="d-flex">
+                    <img src="../india-96.png" width={20} alt="Indian Flag" />
+                    <span>India</span>
+                  </span>
+                </div>
+                <div className="d-flex justify-between">
+                  <p>State:</p> <span>Madhya Pradesh</span>
+                </div>
+                <div className="d-flex justify-between">
+                  <p>City:</p> <span>Gwalior</span>
+                </div>
+                <div className="d-flex justify-between">
+                  <p>Street:</p>
+                  <span>31 Ramanuj Nagar, City Center</span>
+                </div>
+              </div>
+              <div className="card">
+                <div className="d-flex justify-between">
+                  <p>Mail:</p>
+                  <div className="d-flex">
+                    <img src="./gmail-400.png" alt="gmail" width={20} />
+                    <span>suryakant28.st@gmail.com</span>
+                  </div>
+                </div>
+                <div className="d-flex justify-between">
+                  <p>Mobile:</p> <span>+91 7089272128</span>
+                </div>
+                <div className="d-flex justify-between">
+                  <p>Skype:</p>
+                  <div className="d-flex">
+                    <img src="./skype.gif" alt="skype" width={20} />
+                    <span>suryakant28.st</span>
+                  </div>
+                </div>
+                <div className="d-flex justify-between">
+                  <p>Telegram:</p>
+                  <div className="d-flex">
+                    <img src="./telegram.gif" alt="telegram" width={20} />
+                    <span>@suryakantt</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>
